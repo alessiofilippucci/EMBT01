@@ -4,13 +4,13 @@ using namespace std;
 
 int main()
 {
-    std::string ab = "+-*/";
+    std::string ciccio = "+-*/";
     std::string sb;
 
     cout << "Inserisci un carattere:" << endl;
     cin >> sb;
 
-    while (ab.find(sb) == -1)
+    while (ciccio.find(sb) == -1)
     {
         std::cout << "no" << endl;
 
